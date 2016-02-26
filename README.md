@@ -3,17 +3,17 @@ Proyecto Diseno Interactivo
 
 # Objetivos
   A-Como pagar <br>
-  A-Como damos a conocer la app(image)
-  C-Objetivo de veta
-  C-Como evitamos errores al pagar
-  J-Objetivo estrategico
-  J-Como leer la ficha
+  A-Como damos a conocer la app(image) <br>
+  C-Objetivo de veta <br>
+  C-Como evitamos errores al pagar <br>
+  J-Objetivo estrategico <br>
+  J-Como leer la ficha <br>
 
 # Tareas
-  A-Escanear(ficha)
-  A-Informacion del estacionamineto
-  C-Registro
-  C-Historial
-  J-Inicio de sesion
-  J-Pagar o cancelar un escaner de ficha
+  A-Escanear(ficha) <br>
+  A-Informacion del estacionamineto <br>
+  C-Registro <br>
+  C-Historial <br>
+  J-Inicio de sesion <br>
+  J-Pagar o cancelar un escaner de ficha 
 
