@@ -3,6 +3,7 @@ Proyecto Diseno Interactivo
 
 # Objetivos
   A-Como pagar
+  
   A-Como damos a conocer la app(image)
   C-Objetivo de veta
   C-Como evitamos errores al pagar
