@@ -1,0 +1,115 @@
+body{
+    background: #F2F5ED;
+}
+
+#parkingHead{
+    color: white;
+}
+
+/*.container{
+    
+}
+.header{
+    font-family: 'Comfortaa', cursive;
+}*/
+
+.jumbotron {
+background-image: url("https://pixabay.com/static/uploads/photo/2015/04/03/20/47/parking-705873_960_720.jpg");
+background-size: cover;
+}
+
+#medio{
+    display: none;
+    font-family: 'Comfortaa', cursive;
+    color: white;
+    text-shadow:2px 2px 2px black;
+}
+
+#fast{
+    color: #86dc00;
+}
+
+#parking{
+    color: black;
+    text-shadow: 0px 0px 8px white;
+}
+
+.lsp{
+    font-family: 'Comfortaa', cursive;
+    text-align: center;
+}
+.lspcontent{ 
+    text-align: center;
+    font-family: 'Fauna One', serif;
+}
+
+.example{
+    position: relative;
+}
+#more{
+    color: white;
+    text-shadow: 0px 0px 8px white;
+}
+.ani:hover{
+    width: 102%;
+}
+#login-dp{
+    min-width: 250px;
+    padding: 14px 14px 0;
+    overflow:hidden;
+    background-color:rgba(255,255,255,.8);
+}
+#login-dp .help-block{
+    font-size:12px    
+}
+#login-dp .bottom{
+    background-color:rgba(255,255,255,.8);
+    border-top:1px solid #ddd;
+    clear:both;
+    padding:14px;
+}
+#login-dp .social-buttons{
+    margin:12px 0    
+}
+#login-dp .social-buttons a{
+    width: 49%;
+}
+#login-dp .form-group {
+    margin-bottom: 10px;
+}
+.btn-primary{
+    color: black;
+    background-color: #86dc00;
+    border-color: #86dc00;
+}
+.btn-primary:hover{
+    color: black;
+    background-color: #c1ff80;
+    border-color: #c1ff80;
+}
+.btn-fb{
+    color: #fff;
+    background-color:#3b5998;
+}
+.btn-fb:hover{
+    color: #fff;
+    background-color:#496ebc 
+}
+.btn-tw{
+    color: #fff;
+    background-color:#55acee;
+}
+.btn-tw:hover{
+    color: #fff;
+    background-color:#59b5fa;
+}
+@media(max-width:768px){
+    #login-dp{
+        background-color: inherit;
+        color: #fff;
+    }
+    #login-dp .bottom{
+        background-color: inherit;
+        border-top:0 none;
+    }
+}
