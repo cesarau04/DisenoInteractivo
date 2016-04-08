@@ -15,64 +15,6 @@ a:hover{
     text-decoration: none;
     text-shadow: 2px 2px 2px gray;
 }
-
-#parkingHead{
-    color: white;
-}
-
-/*.container{
-    
-}
-.header{
-    font-family: 'Comfortaa', cursive;
-}*/
-
-.jumbotron {
-background-image: url("https://pixabay.com/static/uploads/photo/2015/04/03/20/47/parking-705873_960_720.jpg");
-background-size: cover;
-}
-
-#medio{
-    display: none;
-    font-family: 'Comfortaa', cursive;
-    color: white;
-    text-shadow:2px 2px 2px black;
-}
-
-#fast{
-    color: #86dc00;
-}
-
-#parking{
-    color: black;
-    text-shadow: 0px 0px 8px white;
-}
-
-.lsp{
-    font-family: 'Comfortaa', cursive;
-    text-align: center;
-}
-.lspcontent{ 
-    text-align: center;
-    font-family: 'Fauna One', serif;
-}
-
-.example{
-    position: relative;
-}
-#more{
-    color: white;
-    text-shadow: 0px 0px 8px white;
-}
-.ani:hover{
-    width: 102%;
-}
-#fbtext{
-    color: white;
-}
-#twtext{
-    color: white;
-}
 #login-dp{
     min-width: 250px;
     padding: 14px 14px 0;
@@ -132,4 +74,10 @@ background-size: cover;
         background-color: inherit;
         border-top:0 none;
     }
+}
+#parkingHead{
+    color: white;
+}
+#fast{
+    color: #86dc00;
 }

@@ -11,6 +11,15 @@
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
         <script type="text/javascript" src="js/script.js"></script>
         <title>FastParking</title>
+        <script>
+            (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+            (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+            m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+            })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+            ga('create', 'UA-76155033-1', 'auto');
+            ga('send', 'pageview');
+        </script>
     </head>
 
     <body>
@@ -19,26 +28,28 @@
             <nav class="navbar navbar-inverse">
                 <div class="container-fluid">
                     <div class="navbar-header">
-                    <a class="navbar-brand" href="#"><span id="fast">FAST</span><span id="parkingHead">PARKING!</span></a>
+                    <a class="navbar-brand"><span id="fast">FAST</span><span id="parkingHead">PARKING!</span></a>
                     </div>
                     <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                         <ul class="nav navbar-nav">
                             <li class="active"><a href="">Home <span class="sr-only"></span></a></li>
+                            <li><a href="client/scan/scan.html">Scan</a></li>
+                            <li><a href="client/pay/pay.html">Pay</a></li>
                             <li><a href="client/about/about.html">About</a></li>
                         </ul>
                         </ul>
                         <ul class="nav navbar-nav navbar-right">
                             <li><p class="navbar-text">Already have an account?</p></li>
                             <li class="dropdown">
-                                <a href="#" class="dropdown-toggle" data-toggle="dropdown"><b>Login</b> <span class="caret"></span></a>
+                                <a id="loginMain" href="#" class="dropdown-toggle" data-toggle="dropdown"><b>Login</b> <span class="caret"></span></a>
                                 <ul id="login-dp" class="dropdown-menu">
                                     <li>
                                         <div class="row">
                                             <div class="col-md-12">
                                                 <p>Login via</p>
                                                 <div class="social-buttons">
-                                                    <a href="#" class="btn btn-fb"><i class="fa fa-facebook"></i> Facebook</a>
-                                                    <a href="#" class="btn btn-tw"><i class="fa fa-twitter"></i> Twitter</a>
+                                                    <a id="fbtext" href="#" class="btn btn-fb"><i class="fa fa-facebook"></i> Facebook</a>
+                                                    <a id="twtext" href="#" class="btn btn-tw"><i class="fa fa-twitter"></i> Twitter</a>
                                                 </div>
                                                 <p>or</p>
                                                 <form class="form" role="form" method="post" action="login" accept-charset="UTF-8" id="login-nav">
@@ -88,6 +99,7 @@
         
         <div class="example container">
             <section class="col-sm-4 col-lg-4">
+                <a href="#loginMain"> <!-- SHOULD LAUNCH THE LOGIN BOTTOM ABOVE-->
                 <div class="ani">
                     <h1 class="lsp">LOG IN</h1>
                     <center> <img src="http://juanca17.github.io/PaletaColores/aaTareasUsuario/iphone1.png" alt="log in" width="20%"/> </center>
@@ -98,8 +110,10 @@
                         ample of a paragraph yeah!
                     </p>
                 </div>
+                </a>
             </section>
             <section class="col-sm-4 col-lg-4">
+                <a href="client/scan/scan.html">
                 <div class="ani">
                     <h1 class="lsp">SCAN</h1>
                     <center> <img src="http://juanca17.github.io/PaletaColores/aaTareasUsuario/iphone1.png" alt="log in" width="20%"/> </center>
@@ -110,8 +124,10 @@
                         ample of a paragraph yeah!
                     </p>
                 </div>
+                </a>
             </section>
             <section class="col-sm-4 col-lg-4">
+                <a href="client/pay/pay.html">
                 <div class="ani">
                     <h1 class="lsp">PAY</h1>
                     <center> <img src="http://juanca17.github.io/PaletaColores/aaTareasUsuario/iphone2.png" alt="log in" width="20%"/> </center>
@@ -122,6 +138,7 @@
                         ample of a paragraph yeah!
                     </p>
                 </div>
+                </a>
             </section>
         </div>
         
