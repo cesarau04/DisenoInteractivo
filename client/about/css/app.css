@@ -15,6 +15,12 @@ a:hover{
     text-decoration: none;
     text-shadow: 2px 2px 2px gray;
 }
+#fbtext{
+    color: white;
+}
+#twtext{
+    color: white;
+}
 .myHeader{
     font-family: 'Comfortaa', cursive;
 }

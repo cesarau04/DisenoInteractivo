@@ -15,6 +15,12 @@ a:hover{
     text-decoration: none;
     text-shadow: 2px 2px 2px gray;
 }
+#fbtext{
+    color: white;
+}
+#twtext{
+    color: white;
+}
 #login-dp{
     min-width: 250px;
     padding: 14px 14px 0;
