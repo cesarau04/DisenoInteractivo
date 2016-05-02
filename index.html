@@ -9,6 +9,8 @@
         <link href='https://fonts.googleapis.com/css?family=Fauna+One' rel='stylesheet' type='text/css'>
         <link rel="stylesheet" href="css/app.css">
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
+        <script src="https://cdn.firebase.com/js/client/2.4.2/firebase.js"></script>
+        <script src="client/login/js/index.js"></script>
         <script type="text/javascript" src="js/script.js"></script>
         <title>FastParking</title>
         <script>
@@ -40,52 +42,14 @@
                         </ul>
                         <ul class="nav navbar-nav navbar-right">
                             <li><p class="navbar-text">Already have an account?</p></li>
-                            <li class="dropdown">
-                                <a id="loginMain" href="#" class="dropdown-toggle" data-toggle="dropdown"><b>Login</b> <span class="caret"></span></a>
-                                <ul id="login-dp" class="dropdown-menu">
-                                    <li>
-                                        <div class="row">
-                                            <div class="col-md-12">
-                                                <p>Login via</p>
-                                                <div class="social-buttons">
-                                                    <a id="fbtext" href="#" class="btn btn-fb"><i class="fa fa-facebook"></i> Facebook</a>
-                                                    <a id="twtext" href="#" class="btn btn-tw"><i class="fa fa-twitter"></i> Twitter</a>
-                                                </div>
-                                                <p>or</p>
-                                                <form class="form" role="form" method="post" action="login" accept-charset="UTF-8" id="login-nav">
-                                                    <div class="form-group">
-                                                        <label class="sr-only" for="exampleInputEmail2">Email address</label>
-                                                        <input type="email" class="form-control" id="exampleInputEmail2" placeholder="Email address" required>
-                                                    </div>
-                                                    <div class="form-group">
-                                                        <label class="sr-only" for="exampleInputPassword2">Password</label>
-                                                        <input type="password" class="form-control" id="exampleInputPassword2" placeholder="Password" required>
-                                                        <div class="help-block text-right"><a href="">Forget the password ?</a></div>
-                                                    </div>
-                                                    <div class="form-group">
-                                                        <button type="submit" class="btn btn-primary btn-block">Sign in</button>
-                                                    </div>
-                                                    <div class="checkbox">
-                                                        <label>
-                                                        <input type="checkbox"> <p>Keep me logged-in</p>
-                                                        </label>
-                                                    </div>
-                                                </form>
-                                            </div>
-                                            <div class="bottom text-center">
-                                                <p>New here? <a href="#"><b>Join Us</b></a></p>
-                                            </div>
-                                        </div>
-                                    </li>
-                                </ul>
-                            </li>
+                            <li><a href="client/login/login.html#">Login</a></li>
                         </ul>
                     </div>
                 </div>
             </nav>
         </div>
-        
-        
+
+
         <div class="container" id="medio">
             <div class="jumbotron">
                 <div id="jumbotrontext">
@@ -95,8 +59,8 @@
                 </div>
             </div>
         </div>
-        
-        
+
+
         <div class="example container">
             <section class="col-sm-4 col-lg-4">
                 <a href="#loginMain"> <!-- SHOULD LAUNCH THE LOGIN BOTTOM ABOVE-->
@@ -104,10 +68,10 @@
                     <h1 class="lsp">LOG IN</h1>
                     <center> <img src="http://juanca17.github.io/PaletaColores/aaTareasUsuario/iphone1.png" alt="log in" width="20%"/> </center>
                     <br><p class="lspcontent">
-                        These is not a paragraph
-                        in fact is more like a ex
-                        ample of paraprah, yeah a ex
-                        ample of a paragraph yeah!
+                        Using our app to Log In
+                        and begin to use FastParking,
+                        soon you will notice its potencial
+                        and how it simplifies your life
                     </p>
                 </div>
                 </a>
@@ -118,10 +82,10 @@
                     <h1 class="lsp">SCAN</h1>
                     <center> <img src="http://juanca17.github.io/PaletaColores/aaTareasUsuario/iphone1.png" alt="log in" width="20%"/> </center>
                     <br><p class="lspcontent">
-                        These is not a paragraph
-                        in fact is more like a ex
-                        ample of paraprah, yeah a ex
-                        ample of a paragraph yeah!
+                        As soon as you reay to go
+                        out of the parking lot
+                        just scan the QR code
+                        and pay, that's all!
                     </p>
                 </div>
                 </a>
@@ -132,24 +96,24 @@
                     <h1 class="lsp">PAY</h1>
                     <center> <img src="http://juanca17.github.io/PaletaColores/aaTareasUsuario/iphone2.png" alt="log in" width="20%"/> </center>
                     <br><p class="lspcontent">
-                        These is not a paragraph
-                        in fact is more like a ex
-                        ample of paraprah, yeah a ex
-                        ample of a paragraph yeah!
+                        You're ready now pay!
+                        Just with your finger,
+                        and avoid long lines
+                        isn't easy?
                     </p>
                 </div>
                 </a>
             </section>
         </div>
-        
+
         <!--<div class="container">
             <footer>
                 <p>Posted by: Hege Refsnes<br>
                 Contact information: <a href="mailto:someone@example.com">
                 someone@example.com</a>.</p>
-            </footer> 
+            </footer>
         </div>-->
-                
+
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
         <script src="js/scripts.js"></script>
